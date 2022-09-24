@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.flex-style {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* product */
+.product-vote{
+  font-size: 10px;
+  color: #ffc300;
+}
+/* transition */
+.tran-default
+{
+  transition: all 0.5s ease;
+}
+/* list-style-type */
+.list-st-none {
+  list-style-type: none !important;
+}
+
+/* position */
+.pos-abs{
+  position: absolute;
+}
+.pos-rel {
+  position: relative;
+}
+
+/* text*/
+.tl-center{
+text-align: center;
+}
+.tl-left {
+  text-align: left;
+}
+.tl-right {
+  text-align: right;
+}
+.t-direction-none {
+  text-decoration: none;
+}
+/* text hidden show 3 dot */
+.text-hidden-3dot {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.of-hidden
+{
+  overflow: hidden;
+}
+/* color */
+.color-pri {
+  color: #e76453;
+}
+.color-black {
+  color: #000;
+}
+.color-333{
+  color: #333;
+}
+.color-777 {
+  color: #777;
+}
+/* cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+/* border */
+.border-cd{
+  border:1px solid #cdcdcd;
+}
+.border-pri{
+  border:1px solid #e76453;
+}
+
+/* background */
+.bg-pri {
+  background-color: #e76453;
+}
+.bg-fff {
+  background-color: #fff;
+}
+.bg-f6
+{
+  background-color: #f6f6f6;
+}
+
+/* font */
+.fs-10 {
+  font-size: 10px;
+}
+.fs-11{
+  font-size: 11px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fw-500{
+  font-weight:500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+
+/* display */
+.d-grid{
+  display:grid;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+
+/* line-height */
+.lh-10{
+  line-height:10px;
+}
+.lh-15 {
+  line-height: 15px;
+}
+.lh-20 {
+  line-height: 20px;
+}
+.lh-25 {
+  line-height: 25px;
+}
+
+/* outline */
+.ol-none {
+  outline: none;
+}
+/* transform */
+.transform-scale0{
+  transform: scale(0)
+}
+.z-1000
+{
+  z-index: 1000;
+}
+.top-0{
+  top:0;
+}
+.left-0{
+  left:0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
